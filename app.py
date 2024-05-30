@@ -62,7 +62,7 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.title('Movie Recommendation')
+st.title('Movie Recommendation System')
 selected_movie = st.selectbox('Type a Movie', options=titles)
 
 # Streamlit button to show recommendations
